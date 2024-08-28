@@ -1,0 +1,82 @@
+/* Reset da margem e do padding */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Estilos aplicados à toda a página */
+body {
+    background-image: url(fundo.png);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    padding: 20px 20px;
+    background-color: #0f0529;
+    transition: background-color 1s;
+}
+
+nav li:hover {
+    background-color: #06020f;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+/* Estilo da barra de navegação */
+nav a {
+    font-size: 36px;
+    color: #ebd3f8;
+    text-decoration: none;
+    padding: 0px 40px;
+    display: inline-block;
+}
+
+
+/* Centralização das divs na página */
+div {
+    font-size: 20px;
+    padding: 40px 0px 80px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+/* Centralização do conteúdo nas divs */
+h1, h2, p, form {
+    padding: 0px 0px 10px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Estilos dos elementos do formulário */
+label, input, textarea, button {
+    text-align: left;
+    font-size: 32px;
+}
+
+h1 {
+    font-size: 56px;
+}
+
+p {
+    font-size: 32px;
+    text-align: justify;
+}
+
+#sobre-mim, #formacao {
+    color: #0f0529;
+    background-color: #ebd3f8;
+}
+
+#portfolio {
+    color: #ebd3f8;
+    background-color: #7338a0;
+}
+
+#contato {
+    color: #ebd3f8;
+    background-color: #4a2574;
+}
